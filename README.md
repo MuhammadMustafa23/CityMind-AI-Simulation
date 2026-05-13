@@ -90,11 +90,3 @@ Assigns facility types to grid nodes using backtracking search with Arc Consiste
 
 ### Emergency Routing
 Dijkstra shortest path with risk-weighted edge costs (`riskCostMultiplier`). Greedy nearest-neighbor ordering over civilian target nodes from the ambulance depot.
-
-## Team
-
-| Student ID |
-|------------|
-| i240525    |
-| i240806    |
-| i240653    |
