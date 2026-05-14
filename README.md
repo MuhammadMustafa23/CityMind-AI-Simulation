@@ -56,6 +56,8 @@ python run_gui.py
 python run_console.py
 ```
 
+![Initial State](Ai-CityMind/initial.png)
+
 ## Configuration
 
 Edit `config.py` to tune simulation parameters:
@@ -71,6 +73,9 @@ simulationTicks = 20
 ```
 
 ## Algorithms in Detail
+
+![C1-4](Ai-CityMind/C14.png)
+![C5+ Event Log](Ai-CityMind/C5even.png)
 
 ### CSP City Layout
 Assigns facility types to grid nodes using backtracking search with Arc Consistency (AC-3) propagation. Constraints enforce minimum separation distances between facility types and zoning rules.
